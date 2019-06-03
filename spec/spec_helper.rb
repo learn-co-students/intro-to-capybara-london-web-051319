@@ -1,4 +1,5 @@
 # Load RSpec and Capybara
+require_relative '../config/environment.rb'
 require 'rspec'
 require 'capybara/rspec'
 require 'capybara/dsl'
