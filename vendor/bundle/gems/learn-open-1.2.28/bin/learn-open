@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'learn_open'
+
+lesson, editor_specified, next_lesson, clone_only = LearnOpen::ArgumentParser.new(ARGV).execute
+
+LearnOpen::Opener.run(
+  lesson: lesson,
+  editor_specified: editor_specified,
+  get_next_lesson: next_lesson,
+  clone_only: clone_only
+)
