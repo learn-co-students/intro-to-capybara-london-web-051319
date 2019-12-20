@@ -1,0 +1,53 @@
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-1/intro-to-capybara-london-web-051319/vendor/bundle/gems/oj-2.18.5/ext/oj
+/Users/Moniet97/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/Moniet97/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20190603-78586-ovi3g9.rb extconf.rb
+>>>>> Creating Makefile for ruby version 2.6.3 on x86_64-darwin18 <<<<<
+creating Makefile
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-1/intro-to-capybara-london-web-051319/vendor/bundle/gems/oj-2.18.5/ext/oj
+make "DESTDIR=" clean
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-1/intro-to-capybara-london-web-051319/vendor/bundle/gems/oj-2.18.5/ext/oj
+make "DESTDIR="
+compiling cache8.c
+compiling circarray.c
+compiling compat.c
+compiling dump.c
+dump.c:2109:25: warning: function 'raise_strict' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+raise_strict(VALUE obj) {
+                        ^
+1 warning generated.
+compiling err.c
+err.c:46:21: warning: function 'oj_err_raise' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+oj_err_raise(Err e) {
+                    ^
+err.c:67:101: warning: function '_oj_raise_error' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+_oj_raise_error(const char *msg, const char *json, const char *current, const char* file, int line) {
+                                                                                                    ^
+2 warnings generated.
+compiling fast.c
+compiling hash.c
+compiling hash_test.c
+compiling object.c
+object.c:285:40: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+            parent->val = parse_xml_time(str, len);
+                          ~~~~~~~~~~~~~~      ^~~
+1 warning generated.
+compiling odd.c
+compiling oj.c
+compiling parse.c
+parse.c:743:23: warning: implicit conversion loses integer precision: 'long long' to 'int' [-Wshorten-64-to-32]
+            int         x = ni->exp - ni->di;
+                        ~   ~~~~~~~~^~~~~~~~
+1 warning generated.
+compiling reader.c
+compiling resolve.c
+compiling saj.c
+compiling scp.c
+compiling sparse.c
+compiling strict.c
+compiling val_stack.c
+linking shared-object oj/oj.bundle
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-1/intro-to-capybara-london-web-051319/vendor/bundle/gems/oj-2.18.5/ext/oj
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 oj.bundle ./.gem.20190603-78586-1ohprl0/oj
